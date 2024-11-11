@@ -11,7 +11,10 @@ export default function NavLink({ href, children }: NavLinkProps) {
   const path = usePathname();
 
   return (
-    <Link className={path.startsWith(href) ? `bg-black` : ``} href={href}>
+    <Link
+      className={path.startsWith(href) ? `bg-black text-white` : ``}
+      href={href}
+    >
       {children}
     </Link>
   );
