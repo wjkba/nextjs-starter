@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={"font-sans"}>
         <div className="bg-[#121212] min-h-screen w-full flex justify-center">
-          <div className="max-w-[450px] w-full bg-green-300 px-2">
+          <div className="md:max-w-[1300px] max-w-[450px] w-full bg-green-300 px-2">
             <Header />
             <main>{children}</main>
           </div>

@@ -20,7 +20,7 @@ function Header() {
 
   return (
     <header className="bg-white sticky top-0 text-black shadow-sm z-50">
-      <div className="max-w-[450px] mx-auto px-2">
+      <div className="md:max-w-[1300px] max-w-[450px] mx-auto px-2">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="font-bold text-xl">
             Logo
